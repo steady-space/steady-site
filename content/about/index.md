@@ -3,7 +3,8 @@ title = "About"
 description = "What is steady space and who is it for?"
 +++
 
-Welcome to **steady space** — a quiet home for calming tools, reflection, and steady progress.  
+Welcome to **steady space** — a quiet home for calming tools, reflection, and steady progress.
+
 Crafted with care for the dreamers, doers, and those trying again.
 
 ---
