@@ -10,7 +10,7 @@ Crafted for the dreamers, doers, and those trying again.
 <div class="product-grid">
   <div class="product-card">
     <h2>🧘 Zen Toolkit</h2>
-    <p>The complete calming bundle — includes the full book, companion Field Notes, and reflective prompts. Designed to help you reset, reflect, and rebalance.</p>
+    <p>The complete calming bundle — includes the full book, companion Field Notes, and reflective prompts.</p>
     <a href="https://gum.new/gum/cmalnfax9001k03jo64ztd8y6" target="_blank" class="product-button">→ View Product</a>
   </div>
 
