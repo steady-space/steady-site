@@ -1,7 +1,3 @@
-body {
-  background-color: lavenderblush !important;
-}
-
 .product-grid {
   display: grid;
   gap: 2rem;
