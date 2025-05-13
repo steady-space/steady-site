@@ -1,29 +1,36 @@
 +++
-title = "Welcome"
-layout = "home"
+title = "Products"
+date = 2025-05-13T12:34:28-05:00
+draft = false
+type = "page"
 +++
 
-Welcome to **Steady Space** — a calming hub of digital tools and gentle guidance.  
+Welcome to **steady space** — a calming hub of digital tools and gentle guidance.  
 Crafted for the dreamers, doers, and those trying again.
 
 {{< rawhtml >}}
 <div class="product-grid">
+
   <div class="product-card">
+    <img src="/images/zen-toolkit-cover.png" alt="Zen Toolkit Cover" class="product-image" />
     <h2>🧘 Zen Toolkit</h2>
     <p>The complete calming bundle — includes the full book, companion Field Notes, and reflective prompts.</p>
     <a href="https://gum.new/gum/cmalnfax9001k03jo64ztd8y6" target="_blank" class="product-button">→ View Product</a>
   </div>
 
   <div class="product-card">
+    <img src="/images/lotus-icon.png" alt="Zen Sample Chapter" class="product-image" />
     <h2>📖 Zen Sample Chapter</h2>
     <p>A free preview of the full Zen Toolkit. For when you just want to dip your toes into something calm and grounding.</p>
-    <a href="https://gum.new/gum/cmamtgpg3001v03l130i43rhz" target="_blank" class="product-button">→ Try Free Chapter</a>
+    <a href="https://gum.new/gum/cmamtgpg3001v03l130i43rhz" target="_blank" class="product-button">→ View Free Chapter</a>
   </div>
 
   <div class="product-card">
+    <img src="/images/lotus-icon.png" alt="Calm Job Search Tracker" class="product-image" />
     <h2>💼 Calm Job Search Tracker</h2>
     <p>A peaceful Notion dashboard for hopeful job seekers. Made to reduce stress — not add to it — while you organize and navigate your path.</p>
     <a href="https://gum.new/gum/cmamt2a4f000l03l1axlgge2d" target="_blank" class="product-button">→ View Product</a>
   </div>
+
 </div>
 {{< /rawhtml >}}
