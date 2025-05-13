@@ -9,4 +9,8 @@ theme = 'PaperMod'
 [params.assets]
   customCSS = ["css/extra.css"]
 
-  
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
