@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ partial "head.html" . }}
+  <link rel="stylesheet" href="/css/extra.css">
+  {{ partial "header.html" . }}
+  <main class="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+{{ end }}
