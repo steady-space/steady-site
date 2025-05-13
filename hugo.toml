@@ -1,0 +1,4 @@
+baseURL = 'https://steadyspace.net/'
+languageCode = 'en-us'
+title = 'steady space'
+theme = 'PaperMod'
