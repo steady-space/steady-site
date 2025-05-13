@@ -1,3 +1,4 @@
+/* Product Grid */
 .product-grid {
   display: grid;
   gap: 2rem;
@@ -6,21 +7,41 @@
   padding-bottom: 3rem;
 }
 
+/* Product Card Styling */
 .product-card {
-  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 340px;
+  background: #fff;
   padding: 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
+  border: 1px solid #e5e5e5; /* Light border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .product-card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
+.product-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.product-card p {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Button Styling */
 .product-button {
-  display: inline-block;
-  margin-top: 1rem;
+  align-self: flex-start;
   padding: 0.6rem 1.25rem;
   background: #a67efb;
   color: white;
@@ -33,6 +54,7 @@
   background: #8f6adc;
 }
 
+/* Paragraph & Divider Styling */
 .post-content p {
   margin-bottom: 1.25rem;
   line-height: 1.7;
