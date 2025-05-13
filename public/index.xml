@@ -6,6 +6,26 @@
     <description>Recent content on steady space</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 May 2025 12:34:28 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Products</title>
+      <link>http://localhost:1313/products/</link>
+      <pubDate>Tue, 13 May 2025 12:34:28 -0500</pubDate>
+      <guid>http://localhost:1313/products/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;Steady Space&lt;/strong&gt; — a calming hub of digital tools and gentle guidance.&lt;br&gt;
+Crafted for the dreamers, doers, and those trying again.&lt;/p&gt;
+
+&lt;div class=&#34;product-grid&#34;&gt;
+  &lt;div class=&#34;product-card&#34;&gt;
+    &lt;h2&gt;🧘 Zen Toolkit&lt;/h2&gt;
+    &lt;p&gt;The complete calming bundle — includes the full book, companion Field Notes, and reflective prompts. Designed to help you reset, reflect, and rebalance.&lt;/p&gt;
+    &lt;a href=&#34;https://gum.new/gum/cmalnfax9001k03jo64ztd8y6&#34; target=&#34;_blank&#34; class=&#34;product-button&#34;&gt;→ View Product&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&#34;product-card&#34;&gt;
+    &lt;h2&gt;📖 Zen Sample Chapter&lt;/h2&gt;
+    &lt;p&gt;A free preview of the full Zen Toolkit. For when you just want to dip your toes into something calm and grounding.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
