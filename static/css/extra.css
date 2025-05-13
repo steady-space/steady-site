@@ -1,48 +1,55 @@
-/* Product Grid */
 .product-grid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-top: 2rem;
   padding-bottom: 3rem;
 }
 
-/* Product Card Styling */
+/* Product card layout */
 .product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
-  height: 340px;
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border: 1px solid #e5e5e5; /* Light border */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  transition: transform 0.2s ease;
 }
 
 .product-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
 }
 
+/* Background image banner */
+.product-image-banner {
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem 1rem 0 0;
+  height: 160px;
+  width: 100%;
+}
+
+/* Card content */
 .product-card h2 {
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin: 1rem 1rem 0.25rem;
 }
 
 .product-card p {
-  flex-grow: 1;
-  margin-bottom: 1rem;
   font-size: 0.95rem;
-  color: #444;
+  line-height: 1.5;
+  margin: 0 1rem 1rem;
+  flex-grow: 1;
 }
 
-/* Button Styling */
+/* Button */
 .product-button {
+  display: inline-block;
   align-self: flex-start;
-  padding: 0.45rem 1rem;
+  margin: 0 1rem 1rem;
+  padding: 0.4rem 1rem;
   font-size: 0.9rem;
   background: #a67efb;
   color: white;
@@ -55,7 +62,7 @@
   background: #8f6adc;
 }
 
-/* Paragraph & Divider Styling */
+/* Paragraph spacing site-wide */
 .post-content p {
   margin-bottom: 1.25rem;
   line-height: 1.7;
@@ -65,13 +72,4 @@
   margin: 2.5rem 0;
   border: none;
   border-top: 1px solid #ddd;
-}
-
-.product-image {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 0.75rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
