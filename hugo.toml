@@ -2,3 +2,9 @@ baseURL = 'https://steadyspace.net/'
 languageCode = 'en-us'
 title = 'steady space'
 theme = 'PaperMod'
+
+[params]
+  env = "production"
+
+  [params.assets]
+    customCSS = ["css/extra.css"]
