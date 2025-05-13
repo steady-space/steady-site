@@ -42,7 +42,8 @@
 /* Button Styling */
 .product-button {
   align-self: flex-start;
-  padding: 0.6rem 1.25rem;
+  padding: 0.45rem 1rem;
+  font-size: 0.9rem;
   background: #a67efb;
   color: white;
   border-radius: 6px;
