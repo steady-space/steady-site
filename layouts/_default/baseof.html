@@ -1,9 +1,16 @@
-{{ define "main" }}
-  {{ partial "head.html" . }}
-  <link rel="stylesheet" href="/css/extra.css">
-  {{ partial "header.html" . }}
-  <main class="main">
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
-{{ end }}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="auto">
+  <head>
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/css/extra.css">
+  </head>
+  <body class="list" id="top">
+    {{ partial "header.html" . }}
+    <main class="main">
+      <div class="post-content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+    {{ partial "footer.html" . }}
+  </body>
+</html>
