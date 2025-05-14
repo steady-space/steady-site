@@ -27,7 +27,7 @@ Crafted for the dreamers, doers, and those trying again.
   </div>
 
   <div class="product-card">
-    <div class="product-image-banner" style="background-image: url('/images/lotus-icon.png');"></div>
+    <div class="product-image-banner" style="background-image: url('/images/calm-job.png');"></div>
     <h2>💼 Calm Job Search Tracker</h2>
     <p>A peaceful Notion dashboard for hopeful job seekers. Made to reduce stress — not add to it — while you organize and navigate your path.</p>
     <a href="https://gum.new/gum/cmamt2a4f000l03l1axlgge2d" target="_blank" class="product-button">→ View Product</a>
