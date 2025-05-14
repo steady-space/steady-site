@@ -42,36 +42,26 @@
 .product-card h2 {
   font-size: 1.1rem;
   margin: 1rem 1rem 0.25rem;
-  color: #111; /* Strong black for visibility in light mode */
+  color: #000; /* Always black for readability */
 }
 
-.dark .product-card h2 {
-  color: #fff; /* Crisp white in dark mode */
-}
-
-/* Description with fade */
 .product-card p {
   font-size: 0.95rem;
-  margin: 0 1rem 1rem;
   line-height: 1.5;
+  margin: 0 1rem 1rem;
   flex-grow: 1;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #222; /* darker for better readability */
+  color: #333; /* Dark gray for body text */
 }
 
-/* CTA Button */
 .product-button {
   display: inline-block;
-  margin: 0 1rem 1.25rem;
-  padding: 0.5rem 1rem;
+  align-self: flex-start;
+  margin: 0 1rem 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
   background: #a67efb;
   color: white;
   border-radius: 6px;
-  font-size: 0.85rem;
   text-decoration: none;
   transition: background 0.2s ease;
 }
