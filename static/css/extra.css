@@ -6,6 +6,7 @@
   padding-bottom: 3rem;
 }
 
+/* Layout and appearance */
 .product-card {
   display: flex;
   flex-direction: column;
@@ -15,7 +16,9 @@
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   height: 100%;
+  min-height: 460px; /* Optional: ensure consistent height */
   transition: transform 0.2s ease;
+  overflow: hidden;
 }
 
 .product-card:hover {
@@ -27,8 +30,7 @@
   height: 180px;
   background-size: cover;
   background-position: center;
-  border-radius: 0.75rem;
-  margin-bottom: 1rem;
+  border-radius: 1rem 1rem 0 0;
   transition: opacity 0.3s ease;
 }
 
@@ -36,19 +38,30 @@
   opacity: 0.85;
 }
 
+/* Titles */
 .product-card h2 {
   font-size: 1.1rem;
-  margin: 0 1rem 0.5rem;
+  margin: 1rem 1rem 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* Description with fade */
 .product-card p {
-  flex-grow: 1;
-  margin: 0 1rem 1rem;
   font-size: 0.95rem;
+  margin: 0 1rem 1rem;
   line-height: 1.5;
+  flex-grow: 1;
   color: #444;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* CTA Button */
 .product-button {
   display: inline-block;
   margin: 0 1rem 1.25rem;
@@ -65,6 +78,7 @@
   background: #8f6adc;
 }
 
+/* Global spacing rules */
 .post-content p {
   margin-bottom: 1.25rem;
   line-height: 1.7;
