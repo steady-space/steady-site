@@ -42,9 +42,11 @@
 .product-card h2 {
   font-size: 1.1rem;
   margin: 1rem 1rem 0.25rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: #111; /* Strong black for visibility in light mode */
+}
+
+.dark .product-card h2 {
+  color: #fff; /* Crisp white in dark mode */
 }
 
 /* Description with fade */
