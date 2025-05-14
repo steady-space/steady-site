@@ -32,3 +32,16 @@ Crafted for the dreamers, doers, and those trying again.
 </div>
 
 </div>
+
+<h2>Latest Field Note</h2>
+
+{{< rawhtml >}}
+{{ $recent := first 1 (where site.RegularPages "Section" "field-notes") }}
+{{ range $recent }}
+  <div class="latest-note">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Params.description }}</p>
+    <a href="{{ .RelPermalink }}">→ Read more</a>
+  </div>
+{{ end }}
+{{< /rawhtml >}}
