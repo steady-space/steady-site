@@ -35,4 +35,4 @@ Crafted for the dreamers, doers, and those trying again.
 
 </div>
 
-{{< partial "latest-field-note.html" . >}}
+{{ partial "latest-field-note.html" . }}
