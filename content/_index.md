@@ -39,13 +39,12 @@ Crafted for the dreamers, doers, and those trying again.
 
 {{< rawhtml >}}
 <section class="latest-note">
+  <hr>
   <h2 class="section-title">📝 latest field note</h2>
   {{ $recent := first 1 (where site.RegularPages "Section" "field-notes") }}
   {{ range $recent }}
     <div class="note-preview">
-      <h3 class="note-title">
-        <a href="{{ .RelPermalink }}">{{ .Title | lower }}</a>
-      </h3>
+      <h3 class="note-title"><a href="{{ .RelPermalink }}">{{ .Title | lower }}</a></h3>
       <p class="note-description">{{ .Params.description }}</p>
       <a href="{{ .RelPermalink }}" class="product-button">→ Read more</a>
     </div>
