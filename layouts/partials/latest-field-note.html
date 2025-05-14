@@ -1,9 +1,8 @@
 <hr style="margin: 3rem 0" />
 <h2>📝 latest field note</h2>
-
 {{ $recent := first 1 (where site.RegularPages "Section" "field-notes") }}
 {{ range $recent }}
-  <h3 style="margin-top: 1rem;"><a href="{{ .RelPermalink }}">{{ .Title | lower }}</a></h3>
+  <h3><a href="{{ .RelPermalink }}">{{ .Title | lower }}</a></h3>
   <p>{{ .Params.description }}</p>
   <a href="{{ .RelPermalink }}" class="product-button">→ Read more</a>
 {{ end }}
