@@ -9,6 +9,10 @@
 
 This space is for people who care a little too much, burn out a little too often, and still keep showing up anyway.
 
+## 🌐 live site
+
+https://steadyspace.net
+
 ## 🌿 what lives here
 
 - 🧘 [Zen Support Toolkit](https://gum.new/gum/cmalnfax9001k03jo64ztd8y6)  
