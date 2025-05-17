@@ -37,3 +37,5 @@ https://steadyspace.net
 This isn’t a brand. It’s a slow corner of the internet where small things can be enough.
 
 You won’t find tracking pixels or shiny launch pages — just thoughtful tools and notes from someone who’s figuring it out, gently.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A21F516D)
